@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401873E02C247C820026A28A /* BubblesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401873DF2C247C810026A28A /* BubblesViewModel.swift */; };
+		401873E42C24DA390026A28A /* Starfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401873E32C24DA390026A28A /* Starfield.swift */; };
+		401873E62C24DCF80026A28A /* VolumetricToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401873E52C24DCF80026A28A /* VolumetricToggle.swift */; };
+		401873EA2C2D78990026A28A /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401873E92C2D78990026A28A /* Moon.swift */; };
+		401873EC2C2D79BF0026A28A /* ImmersionToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401873EB2C2D79BF0026A28A /* ImmersionToggle.swift */; };
+		40B610E32C3BDBB800503D04 /* BubbleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B610E22C3BDBB800503D04 /* BubbleData.swift */; };
+		40B610E52C3BDC9400503D04 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B610E42C3BDC9400503D04 /* LandingView.swift */; };
 		40C258FF2C1C284B00A6255F /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 40C258FE2C1C284B00A6255F /* RealityKitContent */; };
-		40C259012C1C284B00A6255F /* VisionOS_PlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C259002C1C284B00A6255F /* VisionOS_PlaygroundApp.swift */; };
-		40C259032C1C284B00A6255F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C259022C1C284B00A6255F /* ContentView.swift */; };
+		40C259012C1C284B00A6255F /* VisionOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C259002C1C284B00A6255F /* VisionOSApp.swift */; };
+		40C259032C1C284B00A6255F /* BubblesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C259022C1C284B00A6255F /* BubblesView.swift */; };
 		40C259052C1C284D00A6255F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C259042C1C284D00A6255F /* Assets.xcassets */; };
 		40C259082C1C284D00A6255F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40C259072C1C284D00A6255F /* Preview Assets.xcassets */; };
 		40C259132C1C284D00A6255F /* VisionOS_PlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C259122C1C284D00A6255F /* VisionOS_PlaygroundTests.swift */; };
@@ -26,10 +33,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401873DF2C247C810026A28A /* BubblesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblesViewModel.swift; sourceTree = "<group>"; };
+		401873E32C24DA390026A28A /* Starfield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starfield.swift; sourceTree = "<group>"; };
+		401873E52C24DCF80026A28A /* VolumetricToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumetricToggle.swift; sourceTree = "<group>"; };
+		401873E92C2D78990026A28A /* Moon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
+		401873EB2C2D79BF0026A28A /* ImmersionToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersionToggle.swift; sourceTree = "<group>"; };
+		40B610E22C3BDBB800503D04 /* BubbleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleData.swift; sourceTree = "<group>"; };
+		40B610E42C3BDC9400503D04 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		40C258F92C1C284B00A6255F /* VisionOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VisionOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C258FD2C1C284B00A6255F /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		40C259002C1C284B00A6255F /* VisionOS_PlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOS_PlaygroundApp.swift; sourceTree = "<group>"; };
-		40C259022C1C284B00A6255F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40C259002C1C284B00A6255F /* VisionOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOSApp.swift; sourceTree = "<group>"; };
+		40C259022C1C284B00A6255F /* BubblesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubblesView.swift; sourceTree = "<group>"; };
 		40C259042C1C284D00A6255F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40C259072C1C284D00A6255F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40C259092C1C284D00A6255F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +70,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40B610E82C3BDCC200503D04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40B610E22C3BDBB800503D04 /* BubbleData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40B610EA2C3BDD1800503D04 /* Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				401873E52C24DCF80026A28A /* VolumetricToggle.swift */,
+				401873EB2C2D79BF0026A28A /* ImmersionToggle.swift */,
+			);
+			path = Toggle;
+			sourceTree = "<group>";
+		};
+		40B610EB2C3BDEC600503D04 /* Bubbles */ = {
+			isa = PBXGroup;
+			children = (
+				40C259022C1C284B00A6255F /* BubblesView.swift */,
+				401873DF2C247C810026A28A /* BubblesViewModel.swift */,
+			);
+			path = Bubbles;
+			sourceTree = "<group>";
+		};
+		40B610EC2C3BDF1500503D04 /* RealityView */ = {
+			isa = PBXGroup;
+			children = (
+				401873E92C2D78990026A28A /* Moon.swift */,
+				401873E32C24DA390026A28A /* Starfield.swift */,
+				40B610E42C3BDC9400503D04 /* LandingView.swift */,
+			);
+			path = RealityView;
+			sourceTree = "<group>";
+		};
 		40C258F02C1C284B00A6255F = {
 			isa = PBXGroup;
 			children = (
@@ -78,8 +128,11 @@
 		40C258FB2C1C284B00A6255F /* VisionOS Playground */ = {
 			isa = PBXGroup;
 			children = (
-				40C259002C1C284B00A6255F /* VisionOS_PlaygroundApp.swift */,
-				40C259022C1C284B00A6255F /* ContentView.swift */,
+				40C259002C1C284B00A6255F /* VisionOSApp.swift */,
+				40B610E82C3BDCC200503D04 /* Model */,
+				40B610EB2C3BDEC600503D04 /* Bubbles */,
+				40B610EC2C3BDF1500503D04 /* RealityView */,
+				40B610EA2C3BDD1800503D04 /* Toggle */,
 				40C259042C1C284D00A6255F /* Assets.xcassets */,
 				40C259092C1C284D00A6255F /* Info.plist */,
 				40C259062C1C284D00A6255F /* Preview Content */,
@@ -214,8 +267,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C259032C1C284B00A6255F /* ContentView.swift in Sources */,
-				40C259012C1C284B00A6255F /* VisionOS_PlaygroundApp.swift in Sources */,
+				40B610E52C3BDC9400503D04 /* LandingView.swift in Sources */,
+				401873E42C24DA390026A28A /* Starfield.swift in Sources */,
+				40B610E32C3BDBB800503D04 /* BubbleData.swift in Sources */,
+				401873E62C24DCF80026A28A /* VolumetricToggle.swift in Sources */,
+				401873E02C247C820026A28A /* BubblesViewModel.swift in Sources */,
+				40C259032C1C284B00A6255F /* BubblesView.swift in Sources */,
+				401873EA2C2D78990026A28A /* Moon.swift in Sources */,
+				401873EC2C2D79BF0026A28A /* ImmersionToggle.swift in Sources */,
+				40C259012C1C284B00A6255F /* VisionOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
