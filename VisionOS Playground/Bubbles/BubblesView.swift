@@ -17,7 +17,7 @@ struct BubblesView: View {
     var body: some View {
         Moon()
         RealityView { content in
-            await setupBubbles(for: viewModel.cryptoData, in: content)
+            await setupBubbles(for: viewModel.bubbleData, in: content)
         }
         .onAppear {
             Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true) { _ in

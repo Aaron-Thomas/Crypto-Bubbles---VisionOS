@@ -13,7 +13,7 @@ class BubblesViewModel {
     
     var isShowingImmersiveBubbles = false
     var isShowingVolumeticBubbles = false
-    var cryptoData: [CryptoBubble] = [
+    var bubbleData: [CryptoBubble] = [
         CryptoBubble(
             name: "BTC",
             icon: "https://d32exi8v9av3ux.cloudfront.net/static/themes/luno_v3/icons/currency/BTC.png",
